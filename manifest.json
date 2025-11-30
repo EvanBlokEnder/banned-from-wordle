@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3
+  "name": "Banned from wordle",
+  "description": "Bans you from wordle.",
+  "version": "1.0",
+  "icons": {
+    "128": "icon.png"
+},
+  "content_scripts": [
+    {
+      "matches": [
+        "https://www.nytimes.com/games/wordle/index.html",
+        "https://nytimes.com/games/wordle/index.html",
+        "http://www.nytimes.com/games/wordle/index.html",
+        "http://nytimes.com/games/wordle/index.html"
+      ],
+      "js": [content.js],
+      "run_at": "document_idle"
+    }
+  ]
+}
