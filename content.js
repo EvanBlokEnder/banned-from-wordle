@@ -52,7 +52,7 @@
   });
 
   const msg = document.createElement('p');
-  msg.textContent = "Sorry — access to Wordle has been suspended for your account. Please contact the administration.";
+  msg.textContent = "Maybe stop putting fucking 'penis' as the answer";
   Object.assign(msg.style, {
     margin: '8px 0 20px 0',
     fontSize: '18px',
@@ -61,7 +61,7 @@
   });
 
   const small = document.createElement('p');
-  small.textContent = "This is a joke. To remove the overlay press Ctrl+Shift+X.";
+  small.textContent = "Close the website asshole";
   Object.assign(small.style, {
     marginTop: '10px',
     fontSize: '13px',
@@ -69,9 +69,9 @@
     opacity: '0.9'
   });
 
-  // Add a playful footer
+
   const footer = document.createElement('div');
-  footer.textContent = "— Your friendly neighborhood prankster";
+  footer.textContent = "— The wordle team 💝";
   Object.assign(footer.style, {
     marginTop: '18px',
     fontSize: '12px',
